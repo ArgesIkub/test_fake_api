@@ -4,10 +4,14 @@
       "views": "int",
       "published": "boolean",
       "createdAt": "date",
+      "tests": "Test[]",
       "comments": "Comment[]"
     },
     "Comment": {
       "body": "string",
       "post": "Post"
+    },
+    "Test": {
+        "note": "string"
     }
   }
