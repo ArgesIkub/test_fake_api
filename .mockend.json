@@ -1,17 +1,14 @@
 {
-    "Post": {
-      "title": "string",
-      "views": "int",
-      "published": "boolean",
-      "createdAt": "date",
-      "tests": "Test",
-      "comments": "Comment[]"
-    },
-    "Comment": {
-      "body": "string",
-      "post": "Post"
-    },
-    "Test": {
-        "note": "string"
+  "Post": {
+    "title": { "string": {} },
+    "comments": {
+      "hasMany": "Comment"
+    }
+  },
+  "Comment": {
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
     }
   }
+}
