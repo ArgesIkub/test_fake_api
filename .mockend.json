@@ -3,6 +3,9 @@
     "title": { "string": {} },
     "comments": {
       "hasMany": "Comment"
+    },
+    "posts": {
+      "hasMany": "Test"
     }
   },
   "Comment": {
@@ -10,5 +13,12 @@
     "post": {
       "belongsTo": "Post"
     }
+  },
+  "Test": {
+    "body": {"string": {}},
+    "post": {
+      "belongsTo": "Post"
+    }
   }
+  
 }
