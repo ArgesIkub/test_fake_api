@@ -12,7 +12,8 @@
     "body": { "string": {} },
     "post": {
       "belongsTo": "Post"
-    }
+    },
+    "libs": {"int":[100,300]}
   },
   "Test": {
     "body": {"string": {}},
