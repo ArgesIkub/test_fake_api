@@ -22,7 +22,7 @@
     "post": {
       "belongsTo": "Post"
     },
-    "libs": {"int":[100,300]}
+    "libs": {"int": [1,2,3,4,5,6]}
   },
 
   "Test": {
